@@ -17,13 +17,13 @@ public class historial {
     @Column(name="alturahist", columnDefinition = "varchar(10)")
     private String alturahist;
 
-    @Column(name="pulsoRadial", columnDefinition = "varchar(10)")
+    @Column(name="pulso_radial", columnDefinition = "varchar(10)")
     private String pulsoRadial;
 
     @Column(name="pesohist", columnDefinition = "varchar(20)")
     private String pesohist;
 
-    @Column(name="actFis", columnDefinition = "varchar(10)")
+    @Column(name="act_fis", columnDefinition = "varchar(10)")
     private String actFis;
 
     @Column(name="userfk", columnDefinition = "int")

@@ -4,7 +4,7 @@ import javax.persistence.*;
 import java.util.Date;
 
 @Entity
-@Table(name="historialAlimentacion")
+@Table(name="historial_alimentacion")
 
 public class historialAlimentacion {
 
@@ -13,7 +13,7 @@ public class historialAlimentacion {
     @Column(name="id")
     private int id;
 
-    @Column(name="fechaDato", columnDefinition = "date")
+    @Column(name="fecha_dato", columnDefinition = "date")
     private Date fechaDato;
 
     @Column(name="carb", columnDefinition = "varchar(20)")
@@ -25,7 +25,7 @@ public class historialAlimentacion {
     @Column(name="prot", columnDefinition = "varchar(20)")
     private String prot;
 
-    @Column(name="cKal", columnDefinition = "varchar(20)")
+    @Column(name="c_kal", columnDefinition = "varchar(20)")
     private String cKal;
 
     @Column(name="userfk", columnDefinition = "varchar(20)")

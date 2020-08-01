@@ -3,7 +3,7 @@ package com.healthview.api.models;
 import javax.persistence.*;
 
 @Entity
-@Table(name="recomendacionesDieta")
+@Table(name="recomendaciones_dieta")
 
 public class recomendacionesDieta {
 

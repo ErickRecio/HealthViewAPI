@@ -12,10 +12,10 @@ public class ejercicios {
     @Column(name="id")
     private int id;
 
-    @Column(name="nomEjerc", columnDefinition = "varchar(100)")
+    @Column(name="nom_ejerc", columnDefinition = "varchar(100)")
     private String nomEjerc;
 
-    @Column(name="cKal", columnDefinition = "varchar(50)")
+    @Column(name="c_kal", columnDefinition = "varchar(50)")
     private String cKal;
 
     public ejercicios(){}

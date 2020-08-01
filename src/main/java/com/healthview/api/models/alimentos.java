@@ -12,13 +12,13 @@ public class alimentos {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name="id")
     private int id;
-    @Column(name="nombreAl", columnDefinition = "varchar(100)")
+    @Column(name="nombre_al", columnDefinition = "varchar(100)")
     private String nombreAl;
 
     @Column(name="porcion", columnDefinition = "varchar(100)")
     private String porcion;
 
-    @Column(name="cKal", columnDefinition = "varchar(10)")
+    @Column(name="c_kal", columnDefinition = "varchar(10)")
     private String cKal;
 
     @Column(name="grasa", columnDefinition = "varchar(10)")

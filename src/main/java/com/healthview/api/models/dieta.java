@@ -14,7 +14,7 @@ public class dieta {
     @Column(name="id")
     private int id;
 
-    @Column(name="tipoDieta", columnDefinition = "varchar(1)")
+    @Column(name="tipo_dieta", columnDefinition = "varchar(1)")
     private String alturatipoDietahist;
 
     @Column(name="desayunos", columnDefinition = "varchar(300)")

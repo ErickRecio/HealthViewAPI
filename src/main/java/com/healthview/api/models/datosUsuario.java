@@ -5,7 +5,7 @@ import javax.persistence.*;
 
 
 @Entity
-@Table(name="datosUsuario")
+@Table(name="datos_usuario")
 
 public class datosUsuario {
 
@@ -16,7 +16,7 @@ public class datosUsuario {
     @Column(name="altura", columnDefinition = "varchar(10)")
     private String altura;
 
-    @Column(name="pulsoRadial", columnDefinition = "varchar(10)")
+    @Column(name="pulso_radial", columnDefinition = "varchar(10)")
     private String pulsoRadial;
 
     @Column(name="peso", columnDefinition = "varchar(10)")
@@ -25,7 +25,7 @@ public class datosUsuario {
     @Column(name="actFis", columnDefinition = "varchar(30)")
     private String actFis;
 
-    @Column(name="nombreUs", columnDefinition = "int")
+    @Column(name="nombre_us", columnDefinition = "int")
     private int nombreUs;
 
     public datosUsuario(){}

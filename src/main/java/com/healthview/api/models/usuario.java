@@ -19,13 +19,13 @@ public class usuario {
     private String pass;
     @Column(name="nombre", columnDefinition = "varchar(30)")
     private String nombre;
-    @Column(name="aPaterno", columnDefinition = "varchar(30)")
+    @Column(name="a_paterno", columnDefinition = "varchar(30)")
     private String aPaterno;
-    @Column(name="aMaterno", columnDefinition = "varchar(30)")
+    @Column(name="a_materno", columnDefinition = "varchar(30)")
     private String aMaterno;
     @Column(name="sexo", columnDefinition = "varchar(11)")
     private String sexo;
-    @Column(name="fechaNac", columnDefinition = "date")
+    @Column(name="fecha_nac", columnDefinition = "date")
     private Date fechaNac;
 
     public usuario(){
